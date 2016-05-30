@@ -1,0 +1,38 @@
+html {
+	box-sizing: border-box;
+	text-align: center;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.Need, .Received {
+	height: 600px;
+	width: 60px;
+	padding: 5px;
+	list-style: none;
+}
+
+.Need {
+	float: left;
+	padding-left: 75px;
+}
+.Received {
+	float: right;
+	padding-right: 75px;
+}
+.Need > li {
+	color: #34CFC5;
+}
+.Received > li {
+	text-decoration: line-through;
+	color: #5DB2AD;
+}
+h1,h3 {
+	text-decoration: underline;
+}
+.social {
+  display: inline-block;
+  margin: 1.25rem 45px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
