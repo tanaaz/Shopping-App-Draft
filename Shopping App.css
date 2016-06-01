@@ -4,6 +4,10 @@ html {
 	background-color: white;
 	font-family: 'Roboto', sans-serif;
 }
+.Obtain > li {
+	color: #2C6662;
+	list-style: none;
+}
 .Need, .Received {
 	height: 600px;
 	width: 60px;
@@ -28,11 +32,4 @@ html {
 }
 h1,h3 {
 	text-decoration: underline;
-}
-.social {
-  display: inline-block;
-  margin: 1.25rem 45px;
-  border: 1px solid #eaebec;
-  padding: 0.625rem 0;
-  text-align: center;
 }

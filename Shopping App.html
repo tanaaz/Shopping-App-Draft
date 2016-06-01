@@ -5,20 +5,35 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="file:///Users/tanaz/Desktop/Projects/Shopping%20App/Shopping%20App.css">
 	<link rel="icon" type="image/png" href="http://www.clker.com/cliparts/6/0/9/4/11954241651773699017ryanlerch_fridge_outline.svg.med.png">
+	<script type="text/javascript" rel ="/Users/tanaz/Desktop/Projects/Shopping App/Shopping App.js"></script>
 </head>
 <body>
  <!--stand alone header-->
  <h1>A Fridge's Wish List</h1>
+ <!--obtain client input- submit bar and button-->
+<div class="Obtain">
+	<form id="userinput">
+		<input type="text" name="Box" value placeholder="Add Your Items Here!">
+		<button type="submit" id="ItemAdded">Enter</button>
+	</form>
+</div>
+<!--items should move from being entered to this list-->
 <div class="Need">
 	<h3>Need</h3>
-		<li>Milk</li>
-		<li>Tomatoes</li>
-		<li>Beer</li>
+		<li class="currentItem"> </li>
+		<li class="currentItem"> </li>
+		<li class="currentItem"> </li>
+<!---possible to make the li class infinite...right now i only give the option to house three-->
 </div>
+<!--items should move from being clicked yes/approve to this list-->
 <div class="Received">
 	<h3>Received</h3>
 		<li>Steak</li>
 		<li>Eggs</li>
+</div>
+<!--items deleted from Need class should be removed-->
+<div class="Remove">
+	
 </div>
 </body>
 </html>
